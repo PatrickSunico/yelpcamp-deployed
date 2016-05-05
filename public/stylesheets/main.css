@@ -3,6 +3,15 @@
   margin: 25px auto;
 }
 
+#authentication h1 {
+  text-align: center;
+}
+
+#authentication .auth-forms {
+  width: 30%;
+  margin: 25px auto;
+}
+
 .thumbnail {
   padding: 0;
 }
