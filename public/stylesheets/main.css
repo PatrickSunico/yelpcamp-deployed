@@ -1,4 +1,8 @@
-#form-camp {
+#wrapper h1 {
+  text-align: center;
+}
+
+#wrapper .form-camp {
   width: 50%;
   margin: 25px auto;
 }
