@@ -32,7 +32,12 @@ var express = require('express'),
 
 
 //Add mongoose and connect our DB
-mongoose.connect('mongodb://localhost/yelp_camp');
+
+
+// mongoose.connect('mongodb://localhost/yelp_camp');
+// mongodb://PatrickStarr:Tuborg93@ds015962.mlab.com:15962/yelp-camp
+
+mongoose.connect('mongodb://PatrickStarr:Tuborg93@ds015962.mlab.com:15962/yelp-camp');
 
 
 
