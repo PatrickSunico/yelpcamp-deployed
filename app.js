@@ -33,16 +33,8 @@ var express = require('express'),
 
 //Add mongoose and connect our DB
 
-
-mongoose.connect('mongodb://localhost/yelp_camp');
-
-console.log(process.env.DATABASEURL);
-
-
-// mongoose.connect('mongodb://PatrickStarr:Tuborg93@ds015962.mlab.com:15962/yelp-camp');
-
-
-
+var url = process.env.DATABASEURL || 'mongodb://localhost/yelp_camp';
+mongoose.connect(url);
 
 
 //Express Settings
