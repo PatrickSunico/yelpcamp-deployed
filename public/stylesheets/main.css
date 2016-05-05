@@ -1,0 +1,32 @@
+#form-camp {
+  width: 50%;
+  margin: 25px auto;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+}
+
+.thumbnail .deleteForm {
+  display: inline;
+}
+
+.well .deleteComment {
+  display: inline;
+}
+
+nav.navbar {
+  border-radius: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
